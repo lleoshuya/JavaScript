@@ -1,0 +1,46 @@
+/*
+#4B6584; //Cor para background
+#2C3A47; //Cor para texto
+#B2BEC3; //Cor para texto2
+*/
+
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAAAAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFFFFF;
+}
